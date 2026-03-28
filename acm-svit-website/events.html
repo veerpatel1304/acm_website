@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events | ACM SVIT</title>
+    <meta name="description" content="Discover upcoming and past events organized by ACM SVIT.">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container nav-container">
+            <div class="logo">
+                <div class="acm-logo-shape">
+                    <div class="acm-logo-inner">
+                        <span class="acm-logo-text-img">acm</span>
+                    </div>
+                </div>
+                <div class="logo-text">ACM x SVIT</div>
+            </div>
+            
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="team.html">Our Team</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="upcoming.html" class="btn-nav">Upcoming Events</a></li>
+            </ul>
+
+            <div class="hamburger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </header>
+
+    <div class="page-header">
+        <div class="container">
+            <h1 style="font-size: 3.5rem; margin-bottom: 1rem;">Events & Workshops</h1>
+            <p style="color: var(--text-secondary); font-size: 1.2rem;">Learn, build, and grow with our community.</p>
+        </div>
+    </div>
+
+    <section class="events-section">
+        <div class="container">
+            <div class="event-filters">
+                <button class="filter-btn active">All Events</button>
+                <button class="filter-btn">Upcoming</button>
+                <button class="filter-btn">Past Events</button>
+            </div>
+
+            <h2 class="section-title">Upcoming Events</h2>
+            <div class="grid-3" style="margin-bottom: 4rem;">
+                <div class="card event-card glass">
+                    <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Hackathon" class="event-img">
+                    <div class="event-content">
+                        <div class="event-date">Oct 15, 2026 • 10:00 AM</div>
+                        <h3>CodeFest 2026</h3>
+                        <p>Our flagship 24-hour hackathon. Build innovative solutions for real-world problems and win exciting prizes.</p>
+                        <div class="event-tags">
+                            <span class="tag">Hackathon</span>
+                            <span class="tag">Web</span>
+                            <span class="tag">AI</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="section-title">Past Events</h2>
+            <div class="grid-3">
+                <div class="card event-card glass">
+                    <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="AI Workshop" class="event-img">
+                    <div class="event-content">
+                        <div class="event-date">Sep 05, 2026</div>
+                        <h3>Intro to Machine Learning</h3>
+                        <p>A hands-on workshop covering the basics of ML using Python, Pandas, and Scikit-Learn.</p>
+                        <div class="event-tags">
+                            <span class="tag">AI</span>
+                            <span class="tag">Python</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card event-card glass">
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Web Dev" class="event-img">
+                    <div class="event-content">
+                        <div class="event-date">Aug 20, 2026</div>
+                        <h3>Frontend Mastery Bootcamp</h3>
+                        <p>Deep dive into modern frontend frameworks like React and Vue, plus advanced CSS techniques.</p>
+                        <div class="event-tags">
+                            <span class="tag">Web Dev</span>
+                            <span class="tag">React</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card event-card glass">
+                    <img src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="DSA" class="event-img">
+                    <div class="event-content">
+                        <div class="event-date">Jul 12, 2026</div>
+                        <h3>DSA Challenge #1</h3>
+                        <p>A coding competition focused on Data Structures and Algorithms with live leaderboard and prizes.</p>
+                        <div class="event-tags">
+                            <span class="tag">DSA</span>
+                            <span class="tag">Competitive</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>ACM SVIT</h3>
+                    <p>Building the future, one line of code at a time.</p>
+                </div>
+                <div class="social-links">
+                    <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="Discord"><i class="fa-brands fa-discord"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2026 ACM SVIT Student Chapter. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
